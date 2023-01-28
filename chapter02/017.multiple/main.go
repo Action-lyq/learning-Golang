@@ -17,6 +17,6 @@ func calculateAvg(bmis ...float64) (avgBmi float64) {
 	return total / float64(len(bmis))
 }
 
-func getScoresOfStudent() (chinese int, english int, math int, nature int) {
-	return 0, 0, 0, 0
+func getScoresOfStudent() (chinese int, math int, english int, physics int, nature int) {
+	return 0, 0, 0, 0, 0
 }
